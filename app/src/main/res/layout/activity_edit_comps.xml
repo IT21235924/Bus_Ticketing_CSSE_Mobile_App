@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/update_offer"
+    >
+
+
+    <EditText
+        android:id="@+id/edit_comp_title_edit_text"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+
+        android:background="@drawable/rounded_edittext_background"
+        android:drawablePadding="10dp"
+        android:hint="Offer Name"
+        android:textColor="#605D5D"
+        android:textColorHint="#605D5D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <EditText
+        android:id="@+id/edit_comp_seller_edit_text"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+
+        android:background="@drawable/rounded_edittext_background"
+        android:drawablePadding="10dp"
+        android:hint="Offer Duration"
+        android:textColor="#605D5D"
+        android:textColorHint="#605D5D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <EditText
+        android:id="@+id/edit_comp_category_edit_text"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+
+        android:background="@drawable/rounded_edittext_background"
+        android:drawablePadding="10dp"
+        android:hint="Category"
+        android:textColor="#605D5D"
+        android:textColorHint="#605D5D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <Button
+        android:id="@+id/delete_comps_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="Delete"
+        android:background="@drawable/rounded_edittext_background"
+        android:textColor="#000000"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <Button
+        android:id="@+id/update_comps_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EEC027"
+        android:text="Update"
+        android:background="@drawable/rounded_edittext_background"
+        android:textColor="#000000"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <EditText
+        android:id="@+id/edit_comp_desc_edit_text"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+
+
+        android:background="@drawable/rounded_edittext_background"
+        android:drawablePadding="10dp"
+        android:hint="Description"
+        android:textColor="#605D5D"
+        android:textColorHint="#605D5D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <!--    <EditText-->
+<!--        android:id="@+id/edit_goal_description_edit_text"-->
+<!--        android:layout_width="280dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:background="@drawable/boarder"-->
+<!--        android:drawableLeft="@drawable/name"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:hint="Description"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.122"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.482" />-->
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/navbar"-->
+<!--        android:layout_width="414dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="4dp"-->
+<!--        app:itemIconTint="@drawable/sssss"-->
+<!--        app:itemTextColor="@drawable/sssss"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.666"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:menu="@menu/menu"-->
+<!--        tools:ignore="MissingConstraints">-->
+
+
+<!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
