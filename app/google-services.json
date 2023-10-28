@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218830448642",
+    "project_id": "csse---mobileapp",
+    "storage_bucket": "csse---mobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218830448642:android:dd8df7c70032d2055b5f1b",
+        "android_client_info": {
+          "package_name": "com.example.csse_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTq-Mv2w1l4ser49ypAwxZW9h2Uzxafk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218830448642:android:138b7f18746331d35b5f1b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTq-Mv2w1l4ser49ypAwxZW9h2Uzxafk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
