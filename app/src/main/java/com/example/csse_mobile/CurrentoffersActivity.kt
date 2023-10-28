@@ -10,7 +10,6 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
 import com.example.csse_mobile.R
-import com.example.cssenew.R
 //import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
