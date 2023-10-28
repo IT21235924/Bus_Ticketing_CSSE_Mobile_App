@@ -5,8 +5,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.csse_mobile.R
 import com.example.cssenew.TopUpRecord
-import com.example.cssenew.R
+
 
 class TopUpRecordAdapter(private val topUpRecords: List<TopUpRecord>) :
     RecyclerView.Adapter<TopUpRecordAdapter.ViewHolder>() {
