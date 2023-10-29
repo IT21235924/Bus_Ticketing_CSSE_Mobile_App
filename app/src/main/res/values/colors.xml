@@ -11,6 +11,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="button_yellow">#EEC027</color>
     <color name="goal_row_color">#03a66a</color>
+    <color name="sharp_red">#c83034</color>
+    <color name="dark_blue">#32357a</color>
 
     <color name="g_black">#171717</color>
 </resources>
