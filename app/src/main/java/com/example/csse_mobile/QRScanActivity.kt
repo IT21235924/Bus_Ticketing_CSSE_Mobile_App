@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -70,6 +69,7 @@ class QRScanActivity : AppCompatActivity() {
                     "startTime" to FieldValue.serverTimestamp(),
                     "endDestination" to null,
                     "endTime" to null,
+                    "fare" to null
                 )
 
                 db.collection("Trip").document(userID).set(tripMap).addOnSuccessListener {
@@ -90,17 +90,24 @@ class QRScanActivity : AppCompatActivity() {
                             .addOnSuccessListener {
                                 Toast.makeText(this, "Profile updated", Toast.LENGTH_SHORT).show()
                             }
-                            .addOnFailureListener {exception ->
-                                Log.d("EditProfile", "update failed with ", exception)
-                            }
 
                         db.collection("Trip").document(userID).update("endTime",FieldValue.serverTimestamp())
                             .addOnSuccessListener {
                                 Toast.makeText(this, "Profile updated", Toast.LENGTH_SHORT).show()
                             }
-                            .addOnFailureListener {exception ->
-                                Log.d("EditProfile", "update failed with ", exception)
-                            }
+
+                        if (tripDoc["startDestination"] == "Malabe" || tripDoc["endDestination"] == "Kaduwela"){
+
+
+                            db.collection("Trip").document(userID).update("fare",40)
+                                .addOnSuccessListener {
+                                    Toast.makeText(this, "Profile updated", Toast.LENGTH_SHORT).show()
+                                }
+
+                        }
+
+
+
 
                     }
                     else{
@@ -113,6 +120,7 @@ class QRScanActivity : AppCompatActivity() {
                             "startTime" to FieldValue.serverTimestamp(),
                             "endDestination" to null,
                             "endTime" to null,
+                            "fare" to null
                         )
 
                         db.collection("Trip").document(userID).set(tripMap).addOnSuccessListener {
